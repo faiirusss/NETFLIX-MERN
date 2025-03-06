@@ -9,6 +9,7 @@ import Watch from "./pages/Watch";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Favorite from "./pages/Favorite";
+import Explore from "./pages/explore";
 
 const router = createBrowserRouter([
   {
@@ -33,8 +34,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/favorite",
-    element: <Favorite/>
-  }
+    element: <Favorite />,
+  },
+  {
+    path: "/explore",
+    element: <Explore />,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
