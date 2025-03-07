@@ -1,8 +1,14 @@
-export const JUMBOTRON_VIDEO = {
-  title: "My Demon",
-  desc: "Embroiled in a family power struggle, heiress Do Do-hee must find a husband to collect her inheritance. Who`s the lucky man? A coldhearted demon.",
-  videoURL: "https://www.youtube.com/watch?v=D-bAfFqvxZg",
-};
+export const JUMBOTRON_VIDEO = [
+  {
+    title: "My Demon",
+    desc: "Embroiled in a family power struggle, heiress Do Do-hee must find a husband to collect her inheritance. Who`s the lucky man? A coldhearted demon.",
+    videoURL: "https://www.youtube.com/watch?v=D-bAfFqvxZg",
+    genre: "Komedi",
+    release_date: 2021,
+    image:
+      "https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/545f6697-cc28-4cc0-a04b-8087c6d398fe/ID-en-20240415-popsignuptwoweeks-perspective_alpha_website_small.jpg",
+  },
+];
 
 export const DETAIL_VIDEO = {
   id: 1,
@@ -158,6 +164,22 @@ export const LIST_VIDEOS = [
   },
   {
     id: 8,
+    title: "Vicenzo",
+    image:
+      "https://occ-0-1001-999.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdSb4_lBugVEm82TvMeNqZkz6QseQXT2IQOoCDyYcZxvZV45wXsWdtCD6H2XacDPE9ZRh14rSciBQi2YWQsCGmILGI8m5bkxtl7Gccj8SVgDIygRSQb3Rw5bfzmRPMBq1lN_Iw.jpg?r=c8b",
+    videoURL: "https://www.youtube.com/watch?v=_J8tYxYB_YU",
+    popularity: 10000,
+  },
+  {
+    id: 9,
+    title: "Vicenzo",
+    image:
+      "https://occ-0-1001-999.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdSb4_lBugVEm82TvMeNqZkz6QseQXT2IQOoCDyYcZxvZV45wXsWdtCD6H2XacDPE9ZRh14rSciBQi2YWQsCGmILGI8m5bkxtl7Gccj8SVgDIygRSQb3Rw5bfzmRPMBq1lN_Iw.jpg?r=c8b",
+    videoURL: "https://www.youtube.com/watch?v=_J8tYxYB_YU",
+    popularity: 10000,
+  },
+  {
+    id: 10,
     title: "Vicenzo",
     image:
       "https://occ-0-1001-999.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdSb4_lBugVEm82TvMeNqZkz6QseQXT2IQOoCDyYcZxvZV45wXsWdtCD6H2XacDPE9ZRh14rSciBQi2YWQsCGmILGI8m5bkxtl7Gccj8SVgDIygRSQb3Rw5bfzmRPMBq1lN_Iw.jpg?r=c8b",

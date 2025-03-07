@@ -90,7 +90,7 @@ const MovieCard = ({ data, isHover, setIsHover }) => {
               ? LIST_VIDEO_RECOMMENDATION[0].image
               : `${import.meta.env.VITE_BASE_URL_TMDB_IMAGE}${data.poster_path}`
           }
-          className="object-cover w-full cursor-pointer max-h-72 rounded-xl"
+          className="object-cover w-full cursor-pointer max-h-72 rounded-md"
         />
       )}
     </>
