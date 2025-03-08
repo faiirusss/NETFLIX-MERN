@@ -9,8 +9,8 @@ import Watch from "./pages/Watch";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Favorite from "./pages/Favorite";
+import Home from "./pages/home";
 import Explore from "./pages/explore";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -35,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/favorite",
     element: <Favorite />,
+  },
+  {
+    path: "/home",
+    element: <Home />,
   },
   {
     path: "/explore",

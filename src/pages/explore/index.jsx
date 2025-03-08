@@ -1,1 +1,1 @@
-export { default } from "@/features/Explore/pages/MainExplorePage";
+export { default } from "@/features/explore/pages/MainExplorePage";

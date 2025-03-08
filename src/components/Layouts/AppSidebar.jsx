@@ -13,8 +13,10 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { LIST_SIDEBAR } from "@/constants/listSidebar";
+import { useLocation } from "react-router-dom";
 
 export default function AppSidebar() {
+  const location = useLocation()
   return (
     <Sidebar collapsible="icon">
       <SidebarHeader>
@@ -22,7 +24,7 @@ export default function AppSidebar() {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <a href="#">
-                <span className="font-bold text-2xl">Ningalifilm</span>
+                <span className="text-2xl font-bold">Ningalifilm</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -35,7 +37,10 @@ export default function AppSidebar() {
             <SidebarMenu>
               {LIST_SIDEBAR.menu.map((item, id) => (
                 <SidebarMenuItem key={id}>
-                  <SidebarMenuButton asChild>
+                  <SidebarMenuButton
+                    asChild
+                    isActive={location.pathname === item.url}
+                  >
                     <a href={item.url}>
                       <item.icon />
                       <span className="font-bold">{item.title}</span>
